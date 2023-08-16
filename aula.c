@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    printf("tchau");
+    printf("tchau. Já é 21:20");
     return 0;
 }
