@@ -3,7 +3,6 @@
 int main(){
     int valor1;
     int valor2;
-    int resultado;
     char operacao;
 
     printf("Insira uma operacao:\n");
@@ -14,20 +13,20 @@ int main(){
     scanf("%d", &valor1);
     printf("Valor 2:\n");
     scanf("%d", &valor2);
+    printf("operacao: %c\n", operacao);
 
     if(operacao == '+'){
-        resultado = valor1 + valor2;
+        printf("resultado: %d\n", valor1 + valor2);
     } else if(operacao == '-'){
-        resultado = valor1 - valor2;
+        printf("resultado: %d\n", valor1 - valor2);
     } else if(operacao == '*'){
-        resultado = valor1 * valor2;
+        printf("resultado: %d\n", valor1 * valor2);
     } else if(operacao == '/'){
-        resultado = valor1 / valor2;
+        printf("resultado: %d\n", valor1 / valor2);
     } else if(operacao == '%'){
-        resultado = valor1 % valor2;
+        printf("resultado: %d\n", valor1 % valor2);
     }
-    printf("resultado: %d\n", resultado);
-    printf("operacao: %c\n", operacao);
+    
 
     // SOMA: resultado = valor1 + valor2;
     // SUBTRACAO: resultado = valor1 - valor2;
