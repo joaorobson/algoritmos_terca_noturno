@@ -29,7 +29,7 @@ char* codigoParaArma(int codArma){
     }  else if(codArma == 3){
         return "spock"; // 3
     }  else if(codArma == 4){
-        return "lagarto"; // 3
+        return "lagarto"; // 4
     } 
 }
 
