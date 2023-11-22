@@ -1,0 +1,4 @@
+nome: joao
+idade: 25
+matricula: 101010
+nota: 7.000000
